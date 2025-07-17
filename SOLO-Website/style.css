@@ -1,0 +1,374 @@
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+li{
+    float: left;
+    padding: 15px;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+li a{
+    background-color: transparent;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    }
+
+li a:hover{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    }
+
+#Logo{
+    width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 500px;
+
+}
+
+
+.product1 img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product1 button:hover{
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+
+.product1 button{
+           background-color: transparent;
+           border: 2px solid black;
+           color: black;
+           padding: 10px 20px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           margin: 15px;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: all 0.3s ease;
+} 
+
+.product1 h2{
+    color: black;
+    margin-top: 60px;
+    
+}
+
+.product1 {
+    height: 300px;
+    width: 270px;
+    padding: 36px;
+    margin: 150px;
+    text-align: center;
+}
+
+.products2 {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    border: 2px solid white;
+    transform: translateY(-3px);
+    transition: 0.4s;
+}
+
+
+.background-image {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-top: 20px; /* Adjusted for fixed navbar */
+}
+
+
+body{
+    margin: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-size: 1470px 1040px;
+    background-image: url(https://i.pinimg.com/736x/a7/84/0d/a7840db8d2f19c74063a715249538552.jpg);
+  }
+
+  .content2{
+    padding: 130px;
+    max-width:690px;
+    margin: 100px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: 0 0 0px 0;
+  }
+
+.Button-Container{
+    position: absolute;
+    left: 575px;
+    top: 500px;
+}
+
+#Logo2{
+    width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    position: absolute;
+    left: 70px;
+    bottom: 570px;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 35px;
+  background-color: black;
+  display: block;
+  border-radius: 4px;
+}
+
+.nav ul li a:hover {
+  background-color: #333;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+/* Dropdown menu */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  background-color: black;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+  min-width: 180px;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.dropdown li a {
+  padding: 10px 15px;
+  color: white;
+}
+
+.dropdown li a:hover {
+  background-color: #444;
+  
+}
+
+.has-dropdown:hover .dropdown {
+  display: flex;
+}
+
+/* Product styles */
+.products2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.product1 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+  margin: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.product1 img {
+  width: 100%;
+  height: auto;
+}
+
+.product1 h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product1 p {
+  font-size: 16px;
+  color: #666;
+}
+
+.product1 button {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product1 button:hover {
+  background-color: #000000;
+}
+
+.product1 {
+  position: relative;
+  display: inline-block;
+}
+
+.product1-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.product1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  white-space: nowrap;
+}
+
+.product1:hover .product1-content {
+  display: block;
+}
+
+.product1:hover .product1-btn {
+  background-color: #2980b9;
+}
+main {
+    width: fit-content; /* or a fixed width like 80%, 600px, etc. */
+    margin: 0 auto;
+}
+
+.content2 {
+  width: fit-content; /* or use a fixed width if needed */
+  margin: 0 auto;
+  text-align: center; /* centers the text inside */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */ 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 1px; /* Bottom margin */
+  resize: horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.506);
+  margin: 90px;
+  padding: 45px;
+  margin-left: 500px;
+  width: 500px;
+}
+
